@@ -2,7 +2,7 @@
 
 .hero-image img{
   height: 100%;
-  filter: brightness(75%);
+  filter: brightness(70%);
 }
  
 .hero-text {
@@ -10,7 +10,7 @@
   top: 30vw;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-shadow:  1px 1px 2px grey;
 }
@@ -93,7 +93,7 @@ img {
 }
 
 .accordion {
-  background-color: #fc0;;
+  background-color: #fc0;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -106,13 +106,13 @@ img {
 }
 
 .active, .accordion:hover {
-  background-color: rgb(110, 126, 157);
-  color: #fff;
+  background-color: rgb(64, 64, 64);
+  color: #fc0;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #fff;
+  color: rgb(64, 64, 64);
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -124,7 +124,7 @@ img {
 
 .panel {
   padding: 0 18px;
-  background-color: rgb(110, 126, 157);
+  background-color: rgb(64, 64, 64);
   color: #fff;
   max-height: 0;
   overflow: hidden;
@@ -155,8 +155,22 @@ img {
   text-align: right;
 }
 
+.social-icons p{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+}
+
 .social-icons a {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .social-icons a:first-child {
@@ -207,14 +221,14 @@ img {
 
   .footer-link ul li :hover{
     padding: 1vw;
-    color: #000000;
-    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    background-color: #fdcf00;
     text-decoration: underline;
   }
 
   .footer-link ul li a{
     text-decoration: none;
-    color: #fc0;
+    color: rgb(28, 28, 28);
   }
 
   .footer-social{
@@ -228,8 +242,7 @@ img {
   .shop-map {
     margin: 5vw 3vw 1vw 12vw;
     padding: 3vw;
-    width: 600;
-    height: 450;
+    width: 100%;
     border: 0;
   }
 }
@@ -294,14 +307,14 @@ img {
 
   .footer-link ul li :hover{
     padding: 0.5vw 1vw 0.5vw 1vw;
-    color: #000000;
-    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    background-color: #fdcf00;
     text-decoration: underline;
   }
 
   .footer-link ul li a{
     text-decoration: none;
-    color: #fc0;
+    color: rgb(28, 28, 28);
   }
 
   .footer-social{
@@ -317,6 +330,7 @@ img {
     position: relative;
     width: 100%;
     height: 100%;
+    padding-left: 3vw;
     padding-right: 5vw;
   }
 }
@@ -391,14 +405,13 @@ img {
 
   .footer-link ul li :hover{
     padding: 0.5vw 1vw 0.5vw 1vw;
-    color: #000000;
-    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    background-color: #fdcf00;
     text-decoration: underline;
   }
 
   .footer-link ul li a{
-    text-decoration: none;
-    color: #fc0;
+    color: rgb(28, 28, 28);
   }
 
   .footer-social {
